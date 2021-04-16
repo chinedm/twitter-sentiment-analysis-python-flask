@@ -5,10 +5,11 @@ from textblob import TextBlob
 from flask_cors import CORS
 
 # Twitter API Credentials
-consumer_key = ''
-consumer_secret = ''
-access_token = ''
-access_token_secret = ''
+consumer_key = 'eflJvPEk7O6AFWIVUNPMJgmDt'
+consumer_secret = 'EidTcxuwGAGovlGuY6lR01YSH0qN90UbQGt3gXX1KNOqpmOslv'
+access_token = '470998362-bB3qhcx4s8QjGG49iFqllpCygeZjKbRamvaX8N2C'
+access_token_secret = 'JTxiRkFnpW9AqoZumsa04po2iOf3z0wGqofL86ua0nvs'
+
 
 print(consumer_key)
 app = Flask(__name__)
